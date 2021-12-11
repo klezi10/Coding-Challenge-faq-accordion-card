@@ -9,11 +9,25 @@ body {
   );
   background-repeat: no-repeat;
   height: 100vh;
+  color: hsl(238, 29%, 16%);
 }
 
 .container {
-  margin: 0 auto;
+  margin: 50px auto;
 }
+
+.app {
+  background: #fff;
+  border-radius: 10px;
+}
+
+details {
+  border-bottom: 1px solid #e7e7e9;
+}
+
+/* summary {
+  font-weight: ;
+} */
 
 .attribution {
   font-size: 11px;
