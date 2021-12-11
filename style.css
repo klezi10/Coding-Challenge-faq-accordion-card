@@ -1,6 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  background: linear-gradient(
+    0deg,
+    rgba(101, 101, 231, 1) 0%,
+    rgba(175, 103, 233, 1) 100%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 100px;
+  /* edit margin later */
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
