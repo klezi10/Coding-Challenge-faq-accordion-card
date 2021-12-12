@@ -23,7 +23,7 @@ h2 {
 
 .container {
   margin: 100px auto;
-  width: 960px;
+  width: 940px;
 }
 
 .app {
@@ -99,8 +99,8 @@ h2 {
 #img-box {
   position: absolute;
   display: flex;
-  transform: translateY(120%);
-  left: -92px;
+  transform: translateY(80%);
+  left: -80px;
   z-index: 2;
   max-width: 50%;
 }
@@ -117,10 +117,11 @@ h2 {
 #img-lines {
   position: absolute;
   display: flex;
-  top: 10%;
-  right: 50%;
-  width: 40%;
+  transform: translateY(20%);
+  left: -476px;
+  width: 211%;
   z-index: 0;
+  top: -401px;
 }
 
 .attribution {
