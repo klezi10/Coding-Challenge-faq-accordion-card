@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: 'Kumbh Sans', sans-serif;
-  font-size: 12px;
   background: linear-gradient(
     0deg,
     rgba(101, 101, 231, 1) 0%,
@@ -9,7 +8,7 @@ body {
   );
   background-repeat: no-repeat;
   height: 100vh;
-  color: hsl(238, 29%, 16%);
+  color: hsl(237, 12%, 33%);
 }
 
 h1 {
@@ -37,6 +36,7 @@ h1 {
 }
 
 .accordion .label {
+  opacity: 0.9;
   position: relative;
   padding: 10px 0;
   cursor: pointer;
@@ -55,6 +55,8 @@ h1 {
 }
 
 .accordion .content {
+  color: hsl(240, 6%, 50%);
+  font-size: 12px;
   position: relative;
   height: 0;
   text-align: justify;
@@ -92,15 +94,18 @@ h1 {
 #img-box {
   position: absolute;
   display: flex;
-  transform: translateY(100%);
+  transform: translateY(120%);
   left: -92px;
   z-index: 2;
+  max-width: 50%;
 }
 
 #img-woman {
   position: absolute;
   display: flex;
   width: 100%;
+  transform: translateY(45%);
+  left: -50px;
   z-index: 1;
 }
 
