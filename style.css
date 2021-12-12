@@ -22,12 +22,17 @@ h1 {
   /* max-width: 1000px; */
 }
 
+.app {
+  background: #fff;
+  border-radius: 10px;
+}
+
 .accordion {
   width: 600px;
   /* padding: 45px; */
 }
 
-.accordion .accordion-item {
+.accordion .container {
   position: relative;
 }
 
@@ -45,14 +50,35 @@ h1 {
   transform: translateY(-50%);
 }
 
+.accordion .content {
+  position: relative;
+  height: 0;
+  text-align: justify;
+  /* width: 400px; */
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.accordion .accordion-item.active .content {
+  height: 50px;
+}
+
+.accordion .accordion-item.active .label::before {
+  content: url(/images/icon-arrow-down.svg);
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  transform: translateY(-50%);
+  transform: rotate(180deg);
+}
+
+.accordion .accordion-item.active .label {
+  font-weight: 700;
+}
+
 .accordion-item {
   border: none;
   border-bottom: 1px solid hsl(240, 5%, 91%);
-}
-
-.app {
-  background: #fff;
-  border-radius: 10px;
 }
 
 .attribution {
