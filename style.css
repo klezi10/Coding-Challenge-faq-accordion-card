@@ -96,7 +96,7 @@ h2 {
   max-width: 400px;
 }
 
-#img-box {
+.img-box {
   position: absolute;
   display: flex;
   transform: translateY(80%);
@@ -105,7 +105,7 @@ h2 {
   max-width: 50%;
 }
 
-#img-woman {
+.img-woman {
   position: absolute;
   display: flex;
   width: 100%;
@@ -114,7 +114,7 @@ h2 {
   z-index: 1;
 }
 
-#img-lines {
+.img-lines {
   position: absolute;
   display: flex;
   transform: translateY(20%);
@@ -123,6 +123,10 @@ h2 {
   z-index: 0;
   top: -401px;
 }
+
+/* .overflow-imgs {
+  overflow: hidden;
+} */
 
 .attribution {
   font-size: 11px;
