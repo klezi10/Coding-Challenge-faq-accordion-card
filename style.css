@@ -28,7 +28,7 @@ h1 {
 }
 
 .accordion {
-  width: 450px;
+  max-width: 450px;
   padding: 50px;
 }
 
@@ -82,6 +82,35 @@ h1 {
 .accordion-item {
   border: none;
   border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.images {
+  position: relative;
+  max-width: 400px;
+}
+
+#img-box {
+  position: absolute;
+  display: flex;
+  transform: translateY(100%);
+  left: -92px;
+  z-index: 2;
+}
+
+#img-woman {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+}
+
+#img-lines {
+  position: absolute;
+  display: flex;
+  top: 10%;
+  right: 50%;
+  width: 40%;
+  z-index: 0;
 }
 
 .attribution {
