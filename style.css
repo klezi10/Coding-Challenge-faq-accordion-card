@@ -29,6 +29,7 @@ h2 {
 .app {
   background: #fff;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .accordion {
@@ -101,7 +102,7 @@ h2 {
   position: absolute;
   display: flex;
   transform: translateY(80%);
-  left: -80px;
+  left: 209px;
   z-index: 2;
   max-width: 50%;
 }
