@@ -99,10 +99,10 @@ h2 {
 }
 
 .img-box {
-  position: absolute;
   display: flex;
-  transform: translateY(80%);
-  left: 209px;
+  position: relative;
+  transform: translateY(182%);
+  left: -92px;
   z-index: 2;
   max-width: 50%;
 }
@@ -126,14 +126,14 @@ h2 {
   top: -401px;
 }
 
-/* .overflow-imgs {
-  overflow: hidden;
-} */
-
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  /*  */
 }
