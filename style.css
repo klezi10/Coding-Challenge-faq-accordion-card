@@ -65,11 +65,12 @@ h2 {
   position: relative;
   height: 0;
   overflow: hidden;
-  transition: 0.5s;
+  transition: all 150ms ease-in-out;
 }
 
 .accordion .accordion-item.active .content {
-  height: 50px;
+  height: auto;
+  padding-bottom: 10px;
 }
 
 .accordion .accordion-item.active .label::before {
